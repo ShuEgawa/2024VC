@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('fonts/Gotham-Regular.woff2') format('woff2'),
+       url('fonts/Gotham-Regular.woff') format('woff'),
+       url('fonts/Gotham-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gotham-font {
+    font-family: 'Gotham', sans-serif;
+    font-size: 50px; /* 必要に応じて調整 */
+    font-weight: bold; /* 太字にする場合 */
+    color: #FDFDFD;
+}
+
+
+#one {
+    background-color: #ADA3A3;
+    float: none;
+    color: #F9F4F4;
+}
+#two, #three, #four, #five {
+    background-color: #ADA3A3;
+    width: 50%;
+	color: #F9F4F4;
+}
+#two, #four {
+    float: left;
+}
+#three, #five {
+    float: right;
+}
+
+
+
+ul.shopname{
+    color: #EE1F23;	
+}
+ul.ddmenu {
+    margin: 0px; /* メニューバー外側の余白(ゼロ) */
+    padding: 0px 0px 0px 15px; /* メニューバー内側の余白(左に15px) */
+    background-color: #ADA3A3;
+}
+
+ul.ddmenu li {
+ width: 125px; /* メニュー項目の横幅(125px) */
+ display: inline-block; /* ★1:横並びに配置する */
+ list-style-type: none; /* ★2:リストの先頭記号を消す */
+ position: relative; /* ★3:サブメニュー表示の基準位置にする */
+}
+
+h1 {
+    margin: 0;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+
+ul.ddmenu a {
+    background-color:#ADA3A3; /* メニュー項目の背景色(濃い赤色) */
+    color: white; /* メニュー項目の文字色(白色) */
+    line-height: 40px; /* メニュー項目のリンクの高さ(40px) */
+    text-align: center; /* メインメニューの文字列の配置(中央寄せ) */
+    text-decoration: none; /* メニュー項目の装飾(下線を消す) */
+    font-weight: bold; /* 太字にする */
+    display: block; /* ★4:項目内全域をリンク可能にする */
+}
+
+ul.ddmenu ul {
+ display: none; /* ★1:標準では非表示にする */
+ margin: 0px; /* ★2:サブメニュー外側の余白(ゼロ) */
+ padding: 0px; /* ★3:サブメニュー内側の余白(ゼロ) */
+ position: absolute; /* ★4:絶対配置にする */
+}
+
+ul.ddmenu a:hover {
+    background-color: #ADA3A3; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
+    color: #F7EBEB; /* メニュー項目にマウスが載ったときの文字色(白色) */    
+}
+ul.ddmenu li:hover ul {
+ display: block; /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+}
