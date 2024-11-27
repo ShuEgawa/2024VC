@@ -13,19 +13,19 @@
     font-family: 'Gotham', sans-serif;
     font-size: 50px; /* 必要に応じて調整 */
     font-weight: bold; /* 太字にする場合 */
-    color: #FDFDFD;
+    color: #FA0408;
 }
 
 
 #one {
-    background-color: #ADA3A3;
+    background-color: #000000;
     float: none;
-    color: #F9F4F4;
+    color: #F50B0B;
 }
 #two, #three, #four, #five {
-    background-color: #ADA3A3;
+    background-color: #000000;
     width: 50%;
-	color: #F9F4F4;
+    color: #FA0707;
 }
 #two, #four {
     float: left;
@@ -42,7 +42,7 @@ ul.shopname{
 ul.ddmenu {
     margin: 0px; /* メニューバー外側の余白(ゼロ) */
     padding: 0px 0px 0px 15px; /* メニューバー内側の余白(左に15px) */
-    background-color: #ADA3A3;
+    background-color: #000000;
 }
 
 ul.ddmenu li {
@@ -59,8 +59,8 @@ h1 {
 
 
 ul.ddmenu a {
-    background-color:#ADA3A3; /* メニュー項目の背景色(濃い赤色) */
-    color: white; /* メニュー項目の文字色(白色) */
+    background-color: #757272; /* メニュー項目の背景色(濃い赤色) */
+    color: #F76363; /* メニュー項目の文字色(白色) */
     line-height: 40px; /* メニュー項目のリンクの高さ(40px) */
     text-align: center; /* メインメニューの文字列の配置(中央寄せ) */
     text-decoration: none; /* メニュー項目の装飾(下線を消す) */
@@ -77,7 +77,7 @@ ul.ddmenu ul {
 
 ul.ddmenu a:hover {
     background-color: #ADA3A3; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
-    color: #F7EBEB; /* メニュー項目にマウスが載ったときの文字色(白色) */    
+    color: #F76363; /* メニュー項目にマウスが載ったときの文字色(白色) */
 }
 ul.ddmenu li:hover ul {
  display: block; /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
